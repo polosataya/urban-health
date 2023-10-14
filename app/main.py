@@ -35,7 +35,7 @@ def create_choropleth(data, json, columns, legend_name, feature, bins):
 
 #=======================================================================================
 
-itog_table = pd.read_csv('data/ekb.csv')
+itog_table = pd.read_csv('app/data/ekb.csv')
 
 negative = st.selectbox('Отрицательные объекты', ('e-cigarette', 'tobacco', 'bar', 'biergarten', 'wine', 'alcohol', 'beverages', 'fast_food', 'food_court'))
 
